@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2em 9%;
+    background: wheat ;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.logo{
+    font-size: 2.5rem;
+    color: rgb(42, 48, 48);
+    font-weight: 600;
+    cursor: default;
+}
+.navbar a{
+font-size: 1.7rem;
+color: black;
+margin-left: 4rem;
+transition: .3s;
+}
+.navbar a:hover{
+    color: rgb(96, 114, 114);
+}
+.navbar a.active{
+
+    color: rgb(138, 136, 80) ;
+
+}
+#menu-icon{
+    font-size: 3.6rem;
+    color: black;
+    display: none;
+    
+}
