@@ -1,0 +1,26 @@
+#info
+{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+hr{
+    height: 0.4rem;
+    margin: 0;
+}
+.skill p, .p-info p{
+    line-height: rem;
+}
+h1,h2{
+    color:#1b1919
+}
+.info h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.4rem;
+}
+
+
