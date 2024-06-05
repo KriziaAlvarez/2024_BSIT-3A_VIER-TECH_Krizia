@@ -23,7 +23,15 @@ if(isset($message)){
          <a href="placed_orders.php">Orders</a>
          <a href="users_accounts.php">Users</a>
          <a href="messages.php">Reviews</a>
+         <a href="archived_orders.php">Archive</a>
       </nav>
+
+      <div class="search-container">
+         <form method="GET" action="admin_search.php">
+            <input type="text" name="search_query" placeholder="Search..." class="search-box" required>
+            <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
+         </form>
+      </div>
 
       <div class="icons">
          <div id="menu-btn" class="fas fa-bars"></div>
